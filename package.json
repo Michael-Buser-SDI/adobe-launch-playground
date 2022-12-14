@@ -1,0 +1,21 @@
+{
+  "name": "adobe-launch-playground",
+  "version": "1.0.0",
+  "description": "A environment for testing the Adobe reactor SDK (Adobe Launch)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Adobe",
+    "reactor",
+    "Launch"
+  ],
+  "author": "Michael Buser",
+  "license": "ISC",
+  "dependencies": {
+    "@adobe/jwt-auth": "^0.3.1",
+    "@adobe/reactor-sdk": "^1.0.6",
+    "dotenv": "^8.2.0"
+  }
+}
