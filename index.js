@@ -70,12 +70,13 @@ const test = async () => {
     console.log(`Updating ${ruleComponents?.length} ruleComponents`);
 
     const videoRules = [
-      "Video Started | [AA]",
-      "Video Played 25% | [AA]",
-      "Video Played 50% | [AA]",
-      "Video Played 75% | [AA]",
-      "Video Completed | [AA]",
-      "Video Abandoned | [AA]",
+      "Video Started | [AA]-[APL]",
+      "Video Reached 25% | [AA]-[APL]",
+      "Video Reached 50% | [AA]-[APL]",
+      "Video Reached 75% | [AA]-[APL]",
+      "Video Completed | [AA]-[APL]",
+      "Video Abandoned | [AA]-[APL]",
+      "Video Chapter Click | [AA]-[APL]",
     ];
 
     const updatedRuleComponents = await Promise.all(
